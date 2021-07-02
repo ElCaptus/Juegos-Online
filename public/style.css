@@ -1,0 +1,50 @@
+body{
+    background-image: url('./Assets/WallpaperCactus.jpg');
+    color: rgb(139, 214, 208);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.formulario{
+    background-color: rgba(77, 0, 0, 0.37);
+    font-weight: 900;
+}
+
+#err{
+    color:rgba(246, 230, 0, 0.986)
+}
+
+td{
+    border: #9d9d00 5px solid;
+    width: 7em;
+    height: 7em;
+    text-align: center;
+    padding: 0;
+}
+
+#tableId{
+    width: 50ch;
+}
+
+.piece{
+    color: white;
+    padding: 0;
+    margin: 0;
+    font-size: 60px;
+}
+
+.imgJ{
+    display: flex;
+    width: fit-content;
+    margin:0;
+}
+
+.imgJ img{
+    width: 150px;
+}
